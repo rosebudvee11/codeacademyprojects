@@ -1,0 +1,4 @@
+SELECT id AS '#',
+	special_instructions AS 'Notes'
+FROM orders
+WHERE special_instructions LIKE '%box%';
